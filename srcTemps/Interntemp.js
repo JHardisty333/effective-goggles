@@ -15,3 +15,5 @@ function addIntern(Intern){
     </div>
     `
 }
+
+module.exports = addIntern;

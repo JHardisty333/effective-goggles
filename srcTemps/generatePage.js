@@ -35,5 +35,10 @@ function generatePage(Team) {
     </html>
 
 `
+
+return data;
+
 }
+
+module.exports = generatePage;
 

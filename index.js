@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
-const Engingeertemp = require('./srcTemps/Engineertemp');
+const Engineertemp = require('./srcTemps/Engineertemp');
 const Interntemp = require('./srcTemps/Interntemp');
 const Managertemp = require('./srcTemps/Managertemp');
 const generatePage = require('./srcTemps/generatePage');
@@ -71,3 +71,18 @@ function addMember() {
             })
         })
 }
+
+function htmlRender(data) {
+    switch(data.role) {
+        case 'Engineer': employees.push(Engineertemp(data)); break;
+        case 'Intern': employees.push(Interntemp(data)); break;
+        case 'Manager': employees.push(Managertemp(data)); break;
+
+        default:
+            break;
+    }
+    console.log(employees)
+}
+
+
+addMember();

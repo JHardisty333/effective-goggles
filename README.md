@@ -34,7 +34,7 @@ This image shows the result of the deployed application:
 ### Video Walkthrough
 The following video demonstrates the functionality and process of the application:
 
-https://user-images.githubusercontent.com/82549162/137131183-cf93299e-365d-4349-a08f-c9bafb80c24c.mp4
+https://user-images.githubusercontent.com/82549162/137136323-09ef942f-10ff-45c1-81d1-4a0b0f6ec05a.mp4
 
 ---
 

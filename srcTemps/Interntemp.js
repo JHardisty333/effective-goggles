@@ -1,4 +1,4 @@
-function addIntern(Intern){
+function addIntern(Intern) {
     return `
     <div class="col">
     <div class="card" style="width: 18rem;">
@@ -9,7 +9,7 @@ function addIntern(Intern){
         <ul class="list-group list-group-flush">
             <li class="list-group-item">${Intern.id}</li>
             <li class="list-group-item">${Intern.roleDetails} </li>
-            <a href="mailto:${Intern.email}" class="btn btn-secondary">${Intern.email}</a>
+            <a href="mailto:${Intern.email}" class="btn btn-info">${Intern.email}</a>
         </ul>
     </div>
     </div>

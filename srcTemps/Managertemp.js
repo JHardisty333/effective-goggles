@@ -1,4 +1,4 @@
-function addManager(Manager){
+function addManager(Manager) {
     return ` 
     <div class="col">
     <div class="card" style="width: 18rem;">
@@ -9,7 +9,7 @@ function addManager(Manager){
         <ul class="list-group list-group-flush">
             <li class="list-group-item">${Manager.id}</li>
             <li class="list-group-item">${Manager.roleDetails} </li>
-            <a href="mailto:${Manager.email}" class="btn btn-secondary">${Manager.email}</a>
+            <a href="mailto:${Manager.email}" class="btn btn-info">${Manager.email}</a>
         </ul>
     </div>
     </div>

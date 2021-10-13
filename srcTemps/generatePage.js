@@ -15,13 +15,13 @@ function generatePage(Team) {
     </head>
     <body>
         <header>
-        <h1 class="display-2 bg-info text-center">Our Team</h1>
+        <h1 class="display-2 bg-dark text-center text-light">Our Team</h1>
         </header>
             <div class="container">
                 <div class="row" id="team">
            
                 ${Team.map(employee => {
-                return employee;
+                    return employee;
                 })}
                 
                 </div>
@@ -36,7 +36,7 @@ function generatePage(Team) {
 
 `
 
-return data;
+    return data;
 
 }
 

@@ -1,4 +1,4 @@
-function addEngineer(Engineer){
+function addEngineer(Engineer) {
     return `
     <div class="col">
     <div class="card" style="width: 18rem;">
@@ -9,7 +9,7 @@ function addEngineer(Engineer){
         <ul class="list-group list-group-flush">
             <li class="list-group-item">${Engineer.id}</li>
             <li class="list-group-item"><a href="https://www.github.com/${Engineer.roleDetails}" target="_blank">${Engineer.roleDetails}</a></li>
-            <a href="mailto:${Engineer.email}" class="btn btn-secondary">${Engineer.email}</a>
+            <a href="mailto:${Engineer.email}" class="btn btn-info">${Engineer.email}</a>
         </ul>
     </div>
     </div>

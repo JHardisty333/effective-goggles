@@ -1,12 +1,25 @@
-# effective-goggles
-## Week 10 Challenge
+# Week 10 Challenge
+
+---
 
 ## Scope
 This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. 
 
+There will be a main page that will run the application with the prompted questions
+> index.js
+
+A .js page for our parent class of Employee with children classes of Intern, Manager, and Engineer
+> Employee.js Intern.js Manager.js Engineer.js
+
+This application requires having test suites for each of those previous pages
+> Employee.test.js Intern.test.js Manager.test.js Engineer.test.js
+
+Finally, this will output an html into the distribution folder
+> ./dist/finalHtml.html
+
 ---
 
-## Demo
+# Demo
 
 ### Test Run
 The following image show the application's successful testing:
